@@ -42,4 +42,4 @@ I want to use technologies such as REST API, React, and Express to implement add
 You can visit my profesional  media: 
 -linkedIn
 
-[DJRR.com]: https://gusanator.github.io/index/index.html
+[DJRR.com]: https://ramrojdj.github.io/ramrojdj/
