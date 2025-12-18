@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --azul: #6482ad;
+    --verde: #0b8494;
+    --rojo: #eb3678;
+    --claro: #f5eded;
+    --oscuro: #0b192c;
+    --oscuro-trans: #0b192ccc;
+}
+
+body {
+    background-color: var(--oscuro);
+}
+
+#lyrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    user-select: none;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid;
+    border-radius: 1rem;
+    background-color: var(--claro);
+    color: var(--oscuro);
+    font-weight: 900;
+    font-family: Impact, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav:active {
+    text-decoration: line-through;
+    color: var(--rojo);
+}
+
+main section#lyrics div.cardContainer {
+    user-select: none;
+    padding: 0.5rem;
+    flex: 1;
+
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+div.cardContainer div.card {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+    width: 5rem;
+    margin-top: 0.1rem;
+}
+
+div.card p.lyric {
+    color: var(--verde);
+}
+
+div.card p.note {
+    background-color: var(--azul);
+    font-weight: 900;
+}
+
+main section#piano {
+    user-select: none;
+    cursor: pointer;
+
+    border: solid;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    font-family: Impact, sans-serif;
+
+    background-color: var(--azul);
+}
+
+#piano .key {
+    border: solid;
+    width: 1.81rem;
+    height: 200px;
+    display: inline-block;
+
+    line-height: 22rem;
+
+    box-shadow: 2px 3px var(--oscuro);
+    background-color: var(--claro);
+
+    transition: box-shadow 0.1s ease;
+}
+
+#piano .key:active {
+    box-shadow: 0 0 ;
+}
+
+#piano .bKey {
+    width: 1.6rem;
+    height: 120px;
+
+    margin-left: -1rem;
+
+    line-height: 13rem;
+
+    background-color: var(--oscuro);
+    color: var(--claro);
+
+    box-shadow: 2px 3px var(--oscuro);
+
+    display: inline-block;
+    position: absolute;
+
+    transition: box-shadow 0.1s ease;
+}
+
+#piano .bKey:active {
+    box-shadow: 0 0 var(--oscuro);
+}
+
+footer {
+    color: var(--verde);
+    text-align: center;
+    font-family: verdana, sans-serif;
+
+    user-select: none;
+}
+
+footer h2 {
+    cursor: pointer;
+    margin-top: 1rem;
+
+    background-color: var(--verde);
+    color: var(--claro);
+}
+
+footer h2:active {
+    color: var(--rojo);
+    text-decoration: line-through;
+}
+
+.activeSong{
+    background-color: var(--claro);
+    color: var(--verde);
+}
