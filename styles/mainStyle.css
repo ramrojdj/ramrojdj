@@ -34,8 +34,8 @@
 .idioma {
     color: var(--verde);
 }
-
 /* FIN CLASES GENERAL */
+
 html {
     background-color: black;
 }
@@ -108,7 +108,7 @@ nav .btn {
 
 .btn:hover {
     color: var(--verde);
-    border: solid;
+    /* border: solid; */
     box-shadow: 0 0 0.3rem 0 var(--verde);
 }
 
@@ -170,7 +170,7 @@ main section.content {
     list-style: none;
     padding: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap: 1rem;
 }
 
@@ -530,6 +530,9 @@ section a.link {
 
     li.projectCard a {
         font-size: 1rem;
+    }
+    #contact p {
+        text-align: center;
     }
 
     footer {
