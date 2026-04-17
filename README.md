@@ -39,6 +39,7 @@ Project is: _in progress_
 I want to use technologies such as REST API, React, and Express to implement additional apps on my homepage.
 
 ## Contact
-You can visit my professional media: -linkedIn
+You can visit my professional media: [LinkedIn]
 
 [DJRR.com]: https://ramrojdj.github.io/ramrojdj/
+[LinkedIn]: https://www.linkedin.com/in/diego-rojas-rr/
